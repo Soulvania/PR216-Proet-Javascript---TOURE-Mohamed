@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre Papier Ciseaux</title>
+    <link rel="stylesheet" href="css/stylepfc.css">
+</head>
+
+<body>
+    <div class="contenu">
+        <h1>Partie de Pierre Feuille Ciseaux</h1>
+        <h2>Joueur <span id="scoreJoueur">0</span> - <span id="scoreOrdi">0</span> Ordinateur</h2>
+        <h2>Vainqueur est celui qui arrive à 10 points.</h2>
+        <h2>Veuillez sélectionner votre choix :</h2>
+        <div class="choixAct">
+            <input class="choix" type="image" src="./img/Pierre.svg" value="Pierre" />
+            <input class="choix" type="image" src="./img/Feuille.svg" value="Feuille" />
+            <input class="choix" type="image" src="./img/Ciseaux.svg" value="Ciseaux" />
+        </div>
+        <div class="affChoix">
+            <div class="comp">
+                <img id="compJoueur" src="./img/Pierre.svg">
+            </div>
+            <div class="sepVS">VS</div>
+            <div class="comp">
+                <img id="compOrdi" src="./img/Pierre.svg">
+            </div>
+        </div>
+
+        <script src="js/pfc.js"></script>
+    </div>
+</body>
+
+</html>
